@@ -1,0 +1,11 @@
+
+select ct_name,ln_id,ln_type from loan,customer where ct_loanid=ln_id and ln_type='Educational loan';
+
+
+select ct_name,br_name from customer,branch where ct_IFSC=br_IFSC and br_name='Bangalore';
+
+
+select th_trnid,ct_name,ct_acno,th_credit,th_debit,th_balance,th_date from customer,trashistory where ct_acno=th_acno;
+
+
+
